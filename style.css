@@ -1,0 +1,39 @@
+.container {
+  max-width: 400px;
+  margin: 0 auto;
+}
+.container-items {
+  border: 1px solid red;
+}
+.container-items div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: green;
+  border: 1px solid black;
+}
+.container-items div p {
+  margin: 0;
+}
+
+.arrow {
+  font-size: 1.5rem;
+  font-weight: bolder;
+  transform: rotate(180deg);
+  -webkit-transform:;
+  -moz-transform:;
+  -ms-transform:;
+  -o-transform:;
+}
+.inner-div {
+  display: none;
+}
+.lorem {
+  display: none;
+}
+
+.lorem.active{
+  display: block;
+}
